@@ -5,12 +5,12 @@
   }
   
   .product-card__image {
-    border-radius: 0.625vw 0 0 0.625vw;
+    border-radius: 0.625rem 0 0 0.625rem;
     height: 100%;
   }
   
   .product-card__info {
-    width: 50vw;
+    width: 70vw;
     justify-content: space-evenly;
   }
 }
