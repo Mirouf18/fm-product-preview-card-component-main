@@ -11,6 +11,6 @@
   
   .product-card__info {
     width: 50vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
