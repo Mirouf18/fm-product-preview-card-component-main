@@ -87,6 +87,7 @@ body {
   justify-content: space-evenly;
   border-radius: 0.625rem;
   padding: 1.5rem;
+  gap:1rem;
   
 }
 
@@ -94,8 +95,8 @@ h1 {
   font-size: 0.825rem;
   color: var(--grey);
   text-transform: uppercase;
-  margin-bottom: 1rem;
   letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
