@@ -71,21 +71,20 @@ body {
   background-color: var(--white);
   border-radius: 0.625rem;
 }
-.product-card__image  img {
-  border-radius: 0.625rem 0.625rem 0 0;}
+
 .product-card__image {
   border-radius: 0.625rem 0.625rem 0 0;
   min-width: 300px;
-  display: block;
-  object-fit: cover;
+}
+
+.product-card__image img {
+  border-radius: 0.625rem 0.625rem 0 0;
 }
 
 .product-card__info {
-  height: 60vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 0.625rem;
   padding: 1.5rem;
   
