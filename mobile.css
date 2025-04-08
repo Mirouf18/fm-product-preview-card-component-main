@@ -84,7 +84,7 @@ body {
 .product-card__info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-radius: 0.625rem;
   padding: 1.5rem;
   gap:1rem;
