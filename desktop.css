@@ -1,16 +1,21 @@
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 625px) {
   .product-card {
     flex-direction: row;
-    width: 40vw;
+    width: 66%;
   }
-  
+
   .product-card__image {
     border-radius: 0.625rem 0 0 0.625rem;
-    height: 100%;
+    width: 50%;
+  }
+
+  
+  .product-card__image img{
+    border-radius: 0.625rem 0 0 0.625rem;
   }
   
   .product-card__info {
-    width: 70vw;
-    justify-content: space-evenly;
+    width: 50%;
+    justify-content: space-around;
   }
 }
